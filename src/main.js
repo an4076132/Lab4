@@ -133,6 +133,7 @@ const layout = {
 
 Plotly.newPlot('chart', [ECG], layout);
 
+var config = {responsive: true}
 
 const timer = {
     timerFlag: 0,
