@@ -80,7 +80,7 @@ function connect(dev) {
                     package = Array.from(new Uint16Array(this.value.buffer));
                     $('#package-header')[0].innerHTML = 'Package點數啦: ' + package.length;
                     $('#package-body')[0].innerHTML = '[' + package + ']';
-                    //console.log(package);
+                    console.log(package);
                     
                     package.forEach(dot => {
                         currentTime++;
